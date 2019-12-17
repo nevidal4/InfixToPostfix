@@ -1,0 +1,40 @@
+1:
+Infix: 8 + 4 * 2 - 6
+Postfix: 8 4 2 * + 6 -
+Evaluation: 10
+2:
+Infix: 7 * 2 - 4 * 3 + 2 * 5
+Postfix: 7 2 * 4 3 * - 2 5 * +
+Evaluation: 12
+3:
+Infix: 2 * 3 * 4 - 8 + 9 / 3 / 3
+Postfix: 2 3 * 4 * 8 - 9 3 / 3 / +
+Evaluation: 17
+4:
+Infix: 5 + 7 * 4 - 6
+Postfix: 5 7 4 * + 6 -
+Evaluation: 27
+5:
+Infix: 4 * ( 3 + 2 * 4 ) - 7
+Postfix: 4 3 2 4 * + * 7 -
+Evaluation: 37
+6:
+Infix: ( 5 + 7 ) / ( 9 - 5 )
+Postfix: 5 7 + 9 5 - /
+Evaluation: 3
+7:
+Infix: 3 * ( 5 * ( 5 - 2 ) ) - 9
+Postfix: 3 5 5 2 - * * 9 -
+Evaluation: 36
+8:
+Infix: ( ( 5 * ( 4 + 2 ) - ( 8 + 8 ) / 2 ) - 9 ) ^ 3
+Postfix: 5 4 2 + * 8 8 + 2 / - 9 - 3 ^
+Evaluation: 2197
+9:
+Infix: ( ( 5 + 5 * ( 6 - 2 ) + 4 ^ 2 ) * 8 )
+Postfix: 5 5 6 2 - * + 4 2 ^ + 8 *
+Evaluation: 328
+10:
+Infix: ( ( ( 3 ^ 4 ) ) )
+Postfix: 3 4 ^
+Evaluation: 81
